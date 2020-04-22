@@ -47,26 +47,28 @@ h1 {
 
 
 @media only screen and (max-width: 980px) {
-	.logo {
-		width: 260px;
-	}
 	
-	.logo-box {
-		padding-top: 115px;
-	}
+.logo {
+	width: 260px;
+}
+	
+.logo-box {
+	padding-top: 115px;
+}
 
-	h1 {
-		font-size: 1.2em;
-		padding-top: 2px;
-		text-align: center;
-	}
+h1 {
+	font-size: 1.2em;
+	padding-top: 2px;
+	text-align: center;
+}
 
-	h2 {
-		font-size: 0.8em;
-		text-align: center;
-	}
+h2 {
+	font-size: 0.8em;
+	text-align: center;
+}
 
-	body, html {
-		overflow: hidden;
-
-	}
+body, html {
+	overflow: hidden;
+}
+	
+}
