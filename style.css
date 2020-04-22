@@ -65,6 +65,10 @@ h1 {
 	.logo {
 		width: 300px;
 	}
+	
+	.box {
+		padding-top: 75px;
+	}
 
 	h1 {
 		font-size: 1.2em;
