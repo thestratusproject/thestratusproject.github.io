@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	background: #000;
+	overflow: hidden;
+	height: 100%;
+}
+
+.box {
+	padding-top: 300px;
+}
+
+.logo {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+img.logo {
+	padding-bottom: 30px;
+}
+
+.insta {
+	display: block;
+	margin: auto;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.ig {
+	width: 25px;
+}
+
+h1 {
+	font-family: neue-haas-unica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	color: #eed202;
+}
+
+
+
+
+
+
+/* #footer {
+	position:absolute;
+	text-align: center;
+	bottom:0;
+	width:100%;
+	height:60px;
+	background: #000;
+} */
+
+
+
+@media only screen and (max-width: 980px) {
+	.logo {
+		width: 300px;
+	}
+
+	h1 {
+		font-size: 1.2em;
+		padding-top: 2px;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 0.8em;
+		text-align: center;
+	}
+
+	body, html {
+		overflow: hidden;
+
+	}
